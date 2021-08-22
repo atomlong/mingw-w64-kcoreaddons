@@ -1,8 +1,8 @@
 # Maintainer: Mladen Milinkovic <maxrd2@smoothware.net>
 
 pkgname=mingw-w64-kcoreaddons
-pkgver=5.76.0
-pkgrel=2
+pkgver=5.85.0
+pkgrel=1
 arch=(any)
 pkgdesc="Addons to QtCore (mingw-w64)"
 license=("LGPL")
@@ -12,7 +12,7 @@ makedepends=("mingw-w64-extra-cmake-modules>=${pkgver%.*}" mingw-w64-qt5-tools)
 options=(staticlibs !strip !buildflags)
 url="https://community.kde.org/Frameworks"
 source=("http://download.kde.org/stable/frameworks/${pkgver%.*}/kcoreaddons-${pkgver}.tar.xz"{,.sig})
-sha256sums=('fbab3e3e18f42922ecdc50138ed31f62007cafa902b959d89b1233b5557282d6'
+sha256sums=('90af5743a9e199e213e812313adf08c9034d1d79936565f22075ccb3f7445414'
             'SKIP')
 validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
 
